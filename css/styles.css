@@ -1,0 +1,39 @@
+/* Page Styles */
+@charset "utf-8";
+body {
+	font-family: sans-serif;
+	font-size: 150%;
+	line-height: 1.4;
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	/* transition: all 1s; */
+}
+.switch-button-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.switch-button {
+    display: inline-block;
+    padding: 6px 12px; /* Adjusted padding */
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    margin-right: auto;
+    border-radius: 50px; /* Adjusted border-radius */
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.switch-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slightly reduced scaling effect */
+}
+
+.switch-button:first-child {
+    margin-right: 10px; /* Reduced margin */
+}
+
+
